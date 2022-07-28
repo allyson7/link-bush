@@ -14,7 +14,7 @@
   --color-primary: #582499;
   --color-primary-dark: #390c71;
   --color-background: #6272a4;
-  --color-dark: #282a36;
+  --color-text: #282a36;
 }
 
 body {
@@ -22,17 +22,19 @@ body {
   font-family: "Roboto", sans-serif;
 
   background: var(--color-background);
-  color: var(--color-dark);
+  color: var(--color-text);
 }
 
 a {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-text);
 }
 
 /* * ESTLOS DOS ELEMENTOS */
 
 body.dark {
+  --color-background: #282a36;
+  --color-text: #f8f8f2;
 }
 
 .container {
@@ -49,7 +51,7 @@ img.avatar {
   width: 10rem;
   height: 10rem;
   padding: 0.37rem;
-  border: 0.5rem solid var(--color-primary);
+  border: 0.5rem solid var(--color-pink);
 }
 
 h1 {
